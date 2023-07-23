@@ -98,7 +98,7 @@ We can now use the formulas above to compute distance. Let's compute distance be
 
 ```{r}
 x <- e[,1]
-y <- e[,2]
+y <- e[,3]
 z <- e[,87]
 sqrt(sum((x-y)^2))
 sqrt(sum((x-z)^2))
